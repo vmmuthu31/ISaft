@@ -82,7 +82,7 @@ const handleGoogleSignOut = () => {
                   src="https://blogger.googleusercontent.com/img/a/AVvXsEiT8Afh7Hou6PPsXsNSRU9AQG1Cg6jg_yqfyIM3-VHhagOqwbuxJhgekjWO6WT64Yxh7dBzaTDvjtydaORLDO7QMzYS4-infXNy34WuNta0HbTPVqYc45MYbhTFTNlngOaC-XKHORZjmkrZVq1KE9Ql9Y043n5yAiMLc-vzlvhlPFZQM0ihZr8S9Rg4nRQ"
                   alt="Your Company"
                 />
-                   <p className="text-white text-lg px-2">C-Dash</p>    
+                   <p className="text-white text-lg px-2">ISaft</p>    
               </div>
               </Link>
             ):(
@@ -129,7 +129,7 @@ const handleGoogleSignOut = () => {
                    
                     <img
                     className="h-8 w-8 rounded-full"
-                    src={session?.user?.image as string || "https://png.pngtree.com/element_our/20190604/ourmid/pngtree-user-avatar-boy-image_1482937.jpg"}
+                    src="https://png.pngtree.com/element_our/20190604/ourmid/pngtree-user-avatar-boy-image_1482937.jpg"
                     alt=""
                   />
               
@@ -150,7 +150,7 @@ const handleGoogleSignOut = () => {
                         <p
                           className={classNames(active ? 'bg-gray-100' : '', 'block  text-center px-4 py-2 text-sm text-gray-700')}
                         >
-                 Test: USer
+                 Test: User
 
                         </p>
                       )}

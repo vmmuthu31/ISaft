@@ -141,8 +141,7 @@ const Home = () => {
             </div>
           <ToastContainer />
           
-            <button onClick={apiCalendar.handleAuthClick}>Sign in to Google Calendar</button>
-          </div>
+         </div>
         </div>
       </div>
 
